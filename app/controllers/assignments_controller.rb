@@ -4,7 +4,7 @@ class AssignmentsController < ApplicationController
   end
   def show
     @assignment = Assignment.find(params[:id])
-    @groups = @assignment.groups.order(:name)
+    @groups = @assignment.groups.order(:created_at)
   end
 
   def new

@@ -1,8 +1,9 @@
-%ul
-  - @groups.each do |group|
-    %li
-      = group.name
-      %ul
-        - group.students.each do |student|
-          %li= student.name
-
+.row
+  .small-12
+    %ul
+      - @groups.each do |group|
+        %li.groups
+          = group.name
+          %ul
+            - group.students.each do |student|
+              %li= student.name

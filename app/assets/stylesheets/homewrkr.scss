@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+*, h1, h2, h3, h4, h5, h6{
+  font-family: 'Poiret One', cursive;
+}
+
+span {
+  color: red;
+}
+
+#logo {
+  width: 150px;
+  height: auto;
+  display: inline;
+}
+
+h1 {
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 60px;
+}
+
+.groups {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#assignments, #students {
+  font-size: 20px;
+}

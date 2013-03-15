@@ -1,5 +1,5 @@
 = form_for @student, :remote => true do |f|
   = f.label :name
   = f.text_field :name
-  = button_to_function('Cancel', 'cancel_form()')
-  = f.submit
+  = button_to_function('Cancel', 'cancel_form()', :class => 'button radius tiny alert')
+  = f.submit nil, :class => 'button radius tiny success'

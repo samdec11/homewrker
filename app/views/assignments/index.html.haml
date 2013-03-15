@@ -1,4 +1,9 @@
-= link_to('New Assignment', new_assignment_path, :remote => true)
-#form
-#assignments
-  = render :partial => 'assignments'
+.row
+  .small-4
+    = link_to('New Assignment', new_assignment_path, :remote => true, :class => 'button radius small')
+    #form
+  .small-8
+.row
+  .small-12
+    #assignments
+      = render :partial => 'assignments'

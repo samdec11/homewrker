@@ -1,4 +1,9 @@
-= link_to('New Student', new_student_path, :remote => true)
-#form
-#students
-  = render :partial => 'students'
+.row
+  .small-4
+    = link_to('New Student', new_student_path, :remote => true, :class => 'button radius small')
+    #form
+  .small-8
+.row
+  .small-12
+    #students
+      = render :partial => 'students'

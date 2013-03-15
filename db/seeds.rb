@@ -1,3 +1,27 @@
 Student.delete_all
 Assignment.delete_all
 Group.delete_all
+
+Student.create(name: 'Sean')
+Student.create(name: 'Nicky')
+Student.create(name: 'Bryan')
+Student.create(name: 'Brian')
+Student.create(name: 'Ryan')
+Student.create(name: 'Eric')
+Student.create(name: 'Alex')
+Student.create(name: 'Adi')
+Student.create(name: 'Simon')
+Student.create(name: 'Chloe')
+Student.create(name: 'Jane')
+Student.create(name: 'Jill')
+Student.create(name: 'Joe')
+Student.create(name: 'Tony')
+Student.create(name: 'Ben')
+Student.create(name: 'Ron')
+Student.create(name: 'Ralph')
+Student.create(name: 'Sandip')
+Student.create(name: 'Shefali')
+Student.create(name: 'Stephen')
+Student.create(name: 'Matt')
+Student.create(name: 'Nick')
+Student.create(name: 'Jeff')

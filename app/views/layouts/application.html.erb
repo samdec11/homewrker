@@ -1,14 +1,33 @@
 <!DOCTYPE html>
-<html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+
 <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width" />
   <title>Homewrkr</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+  <nav>
+    <%= render :partial => 'layouts/nav' %>
+  </nav>
+  <%= yield %>
+  <footer class="row">
+    <div class="large-12 columns">
+      <hr />
+      <div class="row">
+        <div class="large-5 columns">
+          <p>&copy; SMM</p>
+        </div>
+        <div class="large-7 columns"></div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    $(document).foundation();
+  </script>
 </body>
 </html>
