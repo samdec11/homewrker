@@ -1,0 +1,21 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: homewrkr_development
+  pool: 5
+  username: Sean
+  password:
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: homewrkr_test
+  pool: 5
+  username: Sean
+  password:
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: homewrkr_production
+  pool: 5
+  username: Sean
+  password:

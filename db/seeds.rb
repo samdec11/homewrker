@@ -1,0 +1,3 @@
+Student.delete_all
+Assignment.delete_all
+Group.delete_all
